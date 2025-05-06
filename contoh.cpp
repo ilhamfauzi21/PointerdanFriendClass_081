@@ -18,5 +18,14 @@ class PersegiPanjang
         return a * b;
     }
     
-    Lingakaran al;
+    Lingkaran al;
 };
+class Lingkaran
+{
+private:
+    /* data */
+public:
+    Lingkaran(/* args */);
+    ~Lingkaran();
+};
+

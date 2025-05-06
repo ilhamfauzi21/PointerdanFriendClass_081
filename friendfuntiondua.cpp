@@ -21,3 +21,10 @@ void manusia::showNilaiPelajar(pelajar &a)
 {
     cout << a.nilai;
 }
+int main()
+{
+    manusia budi;
+    pelajar pbudi;
+    budi.showNilaiPelajar(pbudi);
+    return 0;
+}

@@ -22,17 +22,12 @@ class PersegiPanjang
 };
 class Lingkaran
 {
-private:
-    /* data */
-public:
-    Lingkaran(/* args */);
-    ~Lingkaran();
+    public:
+    int jarijari;
+
+    void input()
+    {
+        cout << "Masukkan jari-jari : ";
+        cin >> jarijari;
+    }
 };
-Lingkaran::Lingkaran(/* args */)
-{
-}
-
-Lingkaran::~Lingkaran()
-{
-}
-

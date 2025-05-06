@@ -28,4 +28,11 @@ public:
     Lingkaran(/* args */);
     ~Lingkaran();
 };
+Lingkaran::Lingkaran(/* args */)
+{
+}
+
+Lingkaran::~Lingkaran()
+{
+}
 
